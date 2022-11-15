@@ -1197,12 +1197,13 @@ ul {
   font-size: 12px;
   line-height: 1.6;
   letter-spacing: 0.01em;
-
   color: #757575;
 }
+
 .field {
   position: relative;
 }
+
 .field__icon {
   position: absolute;
   left: 12px;
@@ -1269,11 +1270,19 @@ ul {
 }
 
 .checkbox:checked ~ .checkbox__icon {
-  background-image: url("../images/chekboxblue.svg") url("../images/v.svg");
+  background-image: url("../images/chekboxblue.svg");
   background-size: 16px 15px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--secondary-color);
+}
+
+.checkbox:checked + .checkbox__icon {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  background-image: url("../images/v.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .privacy__wrapp {
@@ -1289,6 +1298,7 @@ ul {
   display: inline-block;
 
   width: 16px;
+  border: 2px solid var(--primary-color);
   height: 15px;
 
   border-radius: 4px;
