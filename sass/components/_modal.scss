@@ -83,6 +83,8 @@
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
 }
 
 .field__input,
@@ -90,6 +92,8 @@
   &:hover,
   &:focus {
     border-color: var(--secondary-color);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
   }
 }
 
@@ -98,6 +102,8 @@
   &:hover + .field__icon,
   &:focus + .field__icon {
     fill: var(--secondary-color);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
   }
 }
 
@@ -113,6 +119,8 @@
 .input {
   &:focus {
     border-color: var(--secondary-color);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
   }
 }
 
@@ -123,6 +131,8 @@
 .field__input {
   &:focus {
     border-color: var(--secondary-color);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
   }
 }
 

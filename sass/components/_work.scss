@@ -1,7 +1,7 @@
 /* Чем мы занимаемся */
 
 .works__title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   margin-top: 0px;
@@ -24,12 +24,14 @@
 }
 
 .works__text {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 3%;
   display: flex;
   justify-content: center;
   width: 370px;
   height: 70px;
-  font-weight: 700px;
-  letter-spacing: 3%;
+
   text-transform: uppercase;
 
   color: rgba(255, 255, 255, 1);

@@ -42,9 +42,9 @@
 }
 
 .nav-link {
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
-  letter-spacing: 6%;
+  letter-spacing: 2%;
   color: var(--primary-color);
 }
 
@@ -114,7 +114,8 @@
 
 .header__link__mail,
 .header__link__tel {
-  font-size: 16px;
+  font-size: 14px;
+  letter-spacing: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
