@@ -121,8 +121,10 @@
   transition-timing-function: var(--transition-timing-function);
 }
 
-.join__item:hover .join__icon {
-  fill: #ffffff;
+.join__item {
+  &:hover .join__icon {
+    fill: #ffffff;
+  }
 }
 
 .join__item {

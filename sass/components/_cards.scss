@@ -21,8 +21,10 @@
   }
 }
 
-.section__title__card:hover .text__overlay {
-  transform: translateY(0);
+.section__title__card {
+  &:hover .text__overlay {
+    transform: translateY(0);
+  }
 }
 
 .nav-link {
@@ -32,8 +34,10 @@
   color: var(--primary-color);
 }
 
-.nav-link:focus .text__overlay {
-  transform: translateY(0);
+.nav-link {
+  &:focus .text__overlay {
+    transform: translateY(0);
+  }
 }
 
 .product {
@@ -67,8 +71,10 @@
   transition-timing-function: var(--transition-timing-function);
 }
 
-.section__title__card:hover .product__paragraf {
-  transform: translateY(0);
+.section__title__card {
+  &:hover .product__paragraf {
+    transform: translateY(0);
+  }
 }
 
 .description {
@@ -82,7 +88,7 @@
 }
 
 .description__title {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;

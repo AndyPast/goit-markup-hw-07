@@ -47,7 +47,10 @@
   transition-timing-function: var(--transition-timing-function);
 }
 
-.social__link:hover .social__icon,
-.social__link:focus .social__icon {
-  fill: var(--background-color);
+.social__link,
+.social__link {
+  &:focus .social__icon,
+  &:hover .social__icon {
+    fill: var(--background-color);
+  }
 }
