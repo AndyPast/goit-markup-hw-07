@@ -116,15 +116,9 @@
 }
 
 .join__icon {
-  fill: rgba(175, 177, 184, 1);
+  fill: #ffffff;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
-}
-
-.join__item {
-  &:hover .join__icon {
-    fill: #ffffff;
-  }
 }
 
 .join__item {

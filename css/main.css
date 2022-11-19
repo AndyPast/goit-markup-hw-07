@@ -801,7 +801,6 @@ ul {
 /* Описание преимуществ */
 .Benefits {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .Benefits__item {
@@ -840,7 +839,6 @@ ul {
 .Benefits__title {
   font-weight: bold;
   line-height: 1.14;
-  font-size: 16px;
   margin-bottom: 10px;
 }
 
@@ -851,6 +849,10 @@ ul {
 }
 
 /* Чем мы занимаемся */
+.works .section {
+  padding-bottom: 94px;
+}
+
 .works__title {
   font-weight: 700;
   font-size: 36px;
@@ -1230,15 +1232,11 @@ ul {
 }
 
 .join__icon {
-  fill: rgb(175, 177, 184);
+  fill: #ffffff;
   -webkit-transition-duration: var(--transition-duration);
           transition-duration: var(--transition-duration);
   -webkit-transition-timing-function: var(--transition-timing-function);
           transition-timing-function: var(--transition-timing-function);
-}
-
-.join__item:hover .join__icon {
-  fill: #ffffff;
 }
 
 .join__item {
@@ -1955,15 +1953,11 @@ ul {
 }
 
 .join__icon {
-  fill: rgb(175, 177, 184);
+  fill: #ffffff;
   -webkit-transition-duration: var(--transition-duration);
           transition-duration: var(--transition-duration);
   -webkit-transition-timing-function: var(--transition-timing-function);
           transition-timing-function: var(--transition-timing-function);
-}
-
-.join__item:hover .join__icon {
-  fill: #ffffff;
 }
 
 .join__item {
